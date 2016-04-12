@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        #txt1{margin-left: 200px; margin-top:200px; border-radius: 10px; background-color: #cccccc }
+    </style>
+</head>
+<script>
+    window.onload=function () {
+        var oTxt=document.getElementById('txt1');
+
+        oTxt.onkeydown=function (ev) {
+            var oEvent=ev||event;
+
+            if(oEvent.keyCode!=8&&(oEvent.keyCode<48||oEvent.keyCode>57)){
+                return false;
+            }
+        }
+
+    }
+</script>
+<body>
+
+</body>
+<input id='txt1' type="text">
+</html>
