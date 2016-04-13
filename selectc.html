@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>选择窗口</title>
+    <style>
+        #div1{background: white;left: 100px;top: 100px;}
+        #div1 input.active{background: black;color: white;}
+        #div1 div{width: 200px; height: 200px;background: #ccc;display: none;}
+    </style>
+    <script>
+        window.onload=function ()
+        {
+            var oDiv=document.getElementById('div1');
+            var aBtn=oDiv.getElementsByTagName('input');
+            var aDiv=oDiv.getElementsByTagName('div');
+
+            for(var i=0; i<aBtn.length;i++)
+            {
+                aBtn[i].index=i;
+                aBtn[i].onclick=function ()
+                {
+
+                    for(var i=0; i<aBtn.length;i++)
+                    {
+                        aBtn[i].className=''
+                        aDiv[i].style.display='none';
+                    }
+                    this.className='active';
+                    aDiv[this.index].style.display='block';
+                }
+            }
+
+        }
+    </script>
+</head>
+<body>
+<div id="div1">
+<input class="active" type="button" value="A">
+<input type="button" value="B">
+<input type="button" value="C">
+<div>你咋不上天呢</div>
+<div>睡你麻痹起来嗨</div>
+<div>哎呀妈呀！这不是屎常吗？</div>
+</div>
+</body>
+</html>
