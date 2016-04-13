@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>隐藏菜单</title>
+    <style>
+        *{margin: 0px;padding: 0px;}
+        #nav{background-color: #eee;width: 600px;height: 40px;margin: 0 auto;  }
+        ul{list-style: none;}
+        ul li{float: left; line-height: 40px; text-align: center; position: relative;}
+        a{text-decoration: none; color: #000; display: block; padding: 0 10px;}
+        a:hover{color: #fff;background-color: #666;}
+        ul li ul{position: absolute;left: 0px;top: 40px;display: none;}
+        ul li ul li{float: none;background-color: #eee; margin-top: 2px;}
+        ul li ul a:hover{background-color: #06f;}
+    </style>
+    <script>
+        window.onload=function ()
+        {
+            var oUl=document.getElementById('ul1');
+            var oLi=oUl.getElementsByTagName('li');
+
+            for(var i=0; i<oLi.length; i++)
+            {
+
+                oLi[i].onmousemove=function ()
+                {
+                    var aUl=this.getElementsByTagName('ul')[0];
+                    aUl.style.display='block';
+                }
+                oLi[i].onmousemout=function ()
+                {
+                    var aUl=this.getElementsByTagName('ul')[0];
+                    aUl.style.display='none';
+                }
+            }
+
+        }
+    </script>
+</head>
+<body>
+<div id="nav">
+    <ul id="ul1">
+        <li><a href="#">首页</a></li>
+        <li><a href="#">北京</a>
+            <ul>
+                <li><a href="#">故宫</a> </li>
+                <li><a href="#">长城</a></li>
+                <li><a href="#">天坛</a></li>
+            </ul>
+        </li>
+        <li><a href="#">南京</a>
+            <ul>
+                <li><a href="#">新街口</a></li>
+                <li><a href="#">中山陵</a></li>
+                <li><a href="#">明故宫</a></li>
+            </ul>
+        </li>
+        <li><a href="#">上海</a>
+            <ul>
+                <li><a href="#">浦东</a></li>
+                <li><a href="#">浦西</a></li>
+                <li><a href="#">铺铺</a></li>
+            </ul>
+        </li>
+        <li><a href="#">深圳</a>
+            <ul>
+                <li><a href="#">垃圾</a></li>
+                <li><a href="#">垃圾</a></li>
+                <li><a href="#">垃圾</a></li>
+            </ul>
+        </li>
+    </ul>
+</div>
+
+</body>
+</html>
