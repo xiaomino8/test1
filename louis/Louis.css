@@ -1,0 +1,509 @@
+
+*{
+    margin:0;
+    padding: 0;
+
+}
+body{
+    font-family: Î¢ÈíÑÅºÚ;
+}
+.head-nav{
+    width: 100%;
+    height: 60px;
+    background: cornflowerblue;
+    position: absolute;
+
+
+
+}
+.head-nav div{
+   width: 150px;
+    height: 180px;
+    float: left;
+    margin-left: 20px;
+
+}
+.head-nav div h1{
+    height: 50px;
+    font-size: 15px;
+    text-align: center;
+    margin-left: 15px;
+    top:15px;
+    position: relative;
+
+}
+.head-nav div h1 a{
+    text-decoration: none;
+    text-align: center;
+    color: white;
+
+
+
+}
+.head-nav div h1 a:hover{
+    border-bottom: 2px  solid white;
+}
+
+.head-nav div ul{
+    width: 100px;
+    display: none;
+    position: relative;
+    z-index: 99;
+    float: left;
+    margin-left: 20px;
+
+
+}
+.head-nav div ul li {
+    color: black;
+    list-style: none;
+    z-index: 99;
+    background:rgba(15, 67, 255, 0.3);
+    text-align: center;
+}
+.head-nav div ul li a{
+    text-decoration: none;
+}
+.head-nav div ul li a:hover{
+    color: white;
+}
+
+
+
+.user{
+    position: absolute;
+    width: 100px;
+    height: 60px;
+    right: 10px;
+    top:10px;
+}
+.user a{
+    text-decoration: none;
+    margin-right: 15px;
+}
+.user a:hover{
+    padding-bottom: 5px;
+    border-bottom: 5px solid beige;
+}
+
+
+
+#login{
+    position:fixed ;
+    left: 50%;
+    margin-left: -250px;
+    margin-top: 10%;
+    width: 500px;
+    height: 300px;
+    background-color: rgba(108, 152, 255, 0.8);
+    display: none;
+    z-index: 99;
+}
+#login h1{
+    text-align: center;
+    top: 30px;
+    position: relative;
+
+}
+.login-1{
+    position: absolute;
+    width: 300px;
+    left:50%;
+    top:40%;
+    margin-left:-150px;
+    margin-top:-9px;
+}
+#login input{
+    text-align:center;
+    background-color: rgba(255, 255, 255, 0.5);
+    border: 0px;
+    margin-top: 10px;
+    width: 300px;
+}
+#login input:hover{
+    background-color: rgba(255, 255, 255,1);
+}
+#login button{
+    position: relative;
+    margin-top: 70px;
+    left: 50%;
+    margin-left: -100px;
+    top: 90px;
+    width: 200px;
+    height: 30px;
+    background: rgba(74, 255, 248, 0.5);
+    border: none;
+}
+#login button:hover{
+    background: rgba(74, 255, 248, 1);
+}
+
+
+
+
+
+
+
+
+#photo-show
+{
+    left: 50%;
+    margin-left: -600px;
+    top: 60px;
+    height: 450px;
+    width: 1200px;
+    overflow: hidden;
+    position: relative;
+    overflow: hidden;
+}
+#photo-show ul
+{
+    list-style: none;
+    position: absolute;
+    bottom: 50px;
+    left: 450px;
+}
+#photo-show li
+{
+    margin-left:2px;
+    opacity: .3;
+    filter: alpha(opacity=30);
+    text-align: center;
+    line-height: 30px;
+    font-size: 20px;
+    height: 30px;
+    width: 30px;
+    background-color: #fff;
+    float: left;
+    border-radius:3px;
+    cursor:pointer;
+}
+#photo
+{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+#photo img
+{
+    float: left;
+    border: none;
+    height: 450px;
+    width: 1200px;
+}
+
+
+
+.louis1{
+    width: 1300px;
+    height: 400px;
+    position: absolute;
+    left: 50%;
+    margin-left: -650px;
+    top:520px;
+
+}
+.louis1 h1{
+    text-align: center;
+    font-size: 50px;
+
+    position: relative;
+}
+.louis1 .cate-1{
+    border: 5px solid #cccccc;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 100px;
+    overflow: hidden;
+    top:100px;
+}
+.louis1 .cate-1 img{
+    width: 200px;
+    height: 200px;
+    -webkit-transition: width 2s, height 2s;
+    -webkit-transform: 2s;
+    transition: width 2s, height 2s;
+    transform: 2s;
+
+}
+.louis1 .cate-1 img:hover{
+    width: 220px;
+    height: 220px;
+    cursor: pointer;
+}
+.louis1 .cate-2{
+    border: 5px solid #cccccc;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 380px;
+    top:100px;
+    overflow: hidden;
+}
+.louis1 .cate-2 img{
+    width: 200px;
+    height: 200px;
+    -webkit-transition: width 2s, height 2s;
+    -webkit-transform: 2s;
+    transition: width 2s, height 2s;
+    transform: 2s;
+
+}
+.louis1 .cate-2 img:hover{
+    width: 220px;
+    height: 220px;
+    cursor: pointer;
+}
+.louis1 .cate-3{
+    border: 5px solid #cccccc;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 660px;
+    top:100px;
+    overflow: hidden;
+}
+.louis1 .cate-3 img{
+    width: 200px;
+    height: 200px;
+    -webkit-transition: width 2s, height 2s;
+    -webkit-transform: 2s;
+    transition: width 2s, height 2s;
+    transform: 2s;
+
+}
+.louis1 .cate-3 img:hover{
+    width: 220px;
+    height: 220px;
+    cursor: pointer;
+}
+.louis1 .cate-4{
+    border: 5px solid #cccccc;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 940px;
+    top:100px;
+    overflow: hidden;
+}
+.louis1 .cate-4 img{
+    width: 200px;
+    height: 200px;
+    -webkit-transition: width 2s, height 2s;
+    -webkit-transform: 2s;
+    transition: width 2s, height 2s;
+    transform: 2s;
+
+}
+.louis1 .cate-4 img:hover{
+    width: 220px;
+    height: 220px;
+    cursor: pointer;
+}
+
+
+
+
+
+.louis2{
+    width: 100%;
+    height: 400px;
+    position: absolute;
+    background: rgba(15, 67, 255, 0.22);
+    top:940px;
+
+}
+.louis2 h1{
+    margin-top: 20px;
+    margin-left: 100px;
+}
+.trave-1{
+    width: 100px;
+    height: 200px;
+    left: 100px;
+    top: 100px;
+    position: absolute;
+}
+.trave-1 .trave-1-1{
+    width: 100px;
+    height: 200px;
+}
+.trave-1 .trave-1-1 li {
+    list-style: none;
+    margin-top: 10px;
+}
+.trave-1 .trave-1-1 li:hover{
+    color: rgba(15, 67, 255, 0.72);
+    border-bottom: 1px solid rgba(15, 67, 255, 1);
+    cursor: pointer;
+}
+.trave-2{
+    width: 700px;
+    height: 300px;
+    position: absolute;
+    top: 50px;
+    left: 300px;
+    overflow: hidden;
+}
+.trave-2 .trave-2-2{
+    width: 700px;
+    height: 300px;
+    position: absolute;
+
+}
+.trave-2 .trave-2-2 li{
+    list-style: none;
+
+}
+.trave-2 .trave-2-2 li img{
+    width: 700px;
+    height: 300px;
+}
+
+
+
+
+.louis3{
+    width: 1200px;
+    height: 400px;
+    position: absolute;
+    left: 50%;
+    margin-left: -600px;
+    top:1360px;
+}
+.louis3 h1{
+    text-align: center;
+}
+.louis3 .shop-m{
+    width: 500px;
+    height: 100px;
+    position: absolute;
+    left: 50%;
+    margin-left: -250px;
+    border: 1px solid;
+    top: 50px;
+}
+.louis3 .shop-m input{
+    position: relative;
+    width: 400px;
+    height: 50px;
+    left: 20px;
+    top: 30px;
+}
+.louis3 .shop-m button{
+    position: relative;
+    height: 50px;
+    width: 60px;
+    top: 30px;
+    left: 20px;
+
+}
+.louis3 .shop-m button:hover{
+    cursor: pointer;
+}
+
+.louis3 .shop-l{
+    width: 400px;
+    height: 300px;
+    position: absolute;
+    left: 40px;
+    top: 10px;
+    border: 1px solid;
+}
+.louis3 .shop-r{
+    width: 400px;
+    height: 300px;
+    position: absolute;
+    right: 50px;
+    top: 10px;
+    border: 1px solid;
+}
+
+
+
+
+
+.louis4{
+    width: 1200px;
+    height: 400px;
+    position: absolute;
+    left: 50%;
+    margin-left: -600px;
+    background: coral;
+    top:1780px;
+}
+.louis4 h1{
+    position: absolute;
+    left: 150px;
+    top: 50px;
+}
+.louis4 ul{
+    position: absolute;
+    left: 150px;
+    top:100px;
+}
+.louis4 ul li {
+    display: inline;
+    margin-right: 50px;
+}
+.louis4 ul li:hover{
+    color: rgba(15, 67, 255, 0.72);
+    border-bottom: 1px solid rgba(15, 67, 255, 1);
+    cursor: pointer;
+}
+
+
+
+
+
+
+.louis5{
+    width: 100%;
+    height: 400px;
+    position: absolute;
+    left: 50%;
+    margin-left: -678px;
+    border: 2px solid;
+    top:2200px;
+}
+.louis5 input{
+    position: absolute;
+    width: 800px;
+    left: 50%;
+    margin-left: -400px;
+    height: 50px;
+    top: 100px;
+}
+.louis5 input:hover{
+    background: rgba(255, 20, 126, 0.32);
+}
+.louis5 .share{
+    width: 250px;
+    height: 50px;
+    position: absolute;
+    left: 50%;
+    margin-left: -125px;
+    top: 200px;
+    border-radius: 20px;
+    background: rgba(255, 20, 126, 0.72);
+    border: none;
+}
+.louis5 .share:hover{
+    background: rgba(255, 20, 126, 1);
+    cursor: pointer;
+}
+.louis5 #totop{
+    width: 100px;
+    height: 50px;
+    position: absolute;
+    right: 50px;
+    top: 250px;
+    border-radius: 20px;
+    background: rgba(255, 20, 126, 0.72);
+    border: none;
+}
+.louis5 #totop:hover{
+    background: rgba(255, 20, 126, 1);
+    cursor: pointer;
+}
