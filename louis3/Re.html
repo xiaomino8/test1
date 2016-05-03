@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>用户注册</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .div1{
+            width: 800px;
+            height: 400px;
+            position: absolute;
+            left: 50%;
+            margin-left: -400px;
+
+            top: 100px;
+            background:  rgba(255, 20, 126, 0.72);
+
+        }
+        .div1 h1{
+            text-align: center;
+            margin-top: 20px;
+        }
+        .div2{
+            width: 600px;
+            height: 400px;
+            position: relative;
+            left: 50%;
+            margin-left: -300px;
+            margin-top:30px ;
+
+        }
+        .div2 input{
+            width: 600px;
+            border: none;
+            height: 30px;
+            margin-top: 20px;
+
+
+        }
+        .div2 button{
+            width: 600px;
+            height: 30px;
+            margin-top: 30px;
+            background-color: rgba(15, 67, 255, 0.24);
+            border: none;
+        }
+        .div2 button:hover{
+            background-color: rgba(15, 67, 255, 0.72);
+        }
+    </style>
+    <script>
+        window.onload=function()
+        {
+            var oTxt3=document.getElementById("txt3");
+
+
+            oTxt3.onkeydown=function onlyInputnumber(ev)
+            {
+                var oEvent = ev || event;
+
+
+                if (oEvent.keyCode != 8 && (oEvent.keyCode < 48 || oEvent.keyCode > 57))
+                {
+                    return false;
+                }
+            }
+
+
+        }
+
+    </script>
+</head>
+<body>
+<div class="div1">
+    <h1>Register</h1>
+    <div class="div2">
+        <input type="text" placeholder="username..."><br>
+        <input type="text" placeholder="password..."><br>
+        <input type="text"  id="txt3" placeholder="Telenumber..." keypress="keyPress()"><br>
+        <input type="text" placeholder="verification code...">
+        <button>Send message</button>
+    </div>
+
+</div>
+
+</body>
+</html>
