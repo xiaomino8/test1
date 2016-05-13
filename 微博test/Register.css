@@ -1,0 +1,47 @@
+
+body{
+    background: url("image/10.jpg") no-repeat 0 0;
+    background-size:cover;
+    min-height:700px;
+}
+.div1{
+    width: 600px;
+    height: 400px;
+    position: absolute;
+    left: 50%;
+    margin-left: -300px;
+    top: 200px;
+    background: rgba(255, 20, 126, 0.24);
+
+}
+.div1 h1{
+    text-align: center;
+}
+.div2{
+    width: 400px;
+    height: 400px;
+    position: relative;
+    left: 50%;
+    margin-left: -200px;
+    margin-top:30px ;
+
+}
+.div2 input{
+    width: 400px;
+    border: none;
+    height: 30px;
+    margin-top: 10px;
+
+}
+.div2 button{
+    width: 400px;
+    height: 30px;
+    margin-top: 10px;
+    background-color: rgba(15, 67, 255, 0.24);
+    border: none;
+}
+.div2 button:hover{
+    cursor: pointer;
+    background-color:rgba(15, 67, 255, 0.74) ;
+    transition: all 1s;
+}

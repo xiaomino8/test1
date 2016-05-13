@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>life</title>
+    <link href="animate.css" rel="stylesheet" type="text/css">
+    <script src="jquery/jquery-1.11.1.min.js"></script>
+    <link href="life.css" rel="stylesheet" type="text/css">
+    <script src="life.js"></script>
+</head>
+<body>
+<div class="banner">
+<div id="login">
+    <h1>LOGIN</h1>
+    <button class="login-close"></button>
+    <div class="login-1">
+        <input type="username" name="username" placeholder="请输入帐号"><br>
+        <input type="password" name="password" placeholder="请输入密码"><br>
+
+    </div>
+    <button class="login-submit" type="submit">Sign In</button>
+
+
+</div>
+<header>
+    <ul class="header-1">
+        <li><a href="life.html">Home</a></li>
+        <li><a href="#">Find</a></li>
+        <li><a href="#">Game</a></li>
+    </ul>
+    <div class="uesr">
+        <a id="a1" href="#">Login</a>
+        <a id="a2" href="register.html">Register</a>
+    </div>
+</header>
+</div>
+<div class="totop">
+    <a href="#" id="totop"><img  src="image/top-arrow.png"></a>
+</div>
+<div class="main">
+    <div class="main_nav">
+        <ul>
+            <li><a href="life.html">Home</a> </li>
+            <li><a href="#">Message</a> </li>
+            <li><a href="#">Collect</a> </li>
+            <li><a href="#">Zang</a> </li>
+        </ul>
+    </div>
+    <div class="main_nav-2" id="main_nav2">
+        <ul>
+            <li><a href="#">Friend</a></li>
+            <li><a href="#">qWeiBo</a></li>
+            <li><a href="#">Focus</a></li>
+            <li><a href="#">ManyKnow</a></li>
+            <li><a href="#">GaoXiao</a></li>
+            <li><a href="#">FarmStart</a></li>
+            <li><a href="#">ShuMa</a></li>
+            <li><a href="#">Diansan</a></li>
+        </ul>
+        <input type="button" id="main_nav-2-show" value="show">
+    </div>
+    <div class="imfor" id="imfor">
+        <h3>{{h3}}</h3>
+        <img src="image/{{index}}.jpg">
+        <div class="imfor-1-1" >
+            <a href="#">Focus</a>
+            <a href="#">Fans</a>
+            <a href="#">Weibo</a>
+        </div>
+
+    </div>
+    <div class="imfor-2" id="imfor-2">
+        <h3><a href="#">Top-read</a></h3>
+        <ul id="imfor-2-ul">
+            <li id="imf-top-{{index}}"><a href="#">{{one}}<img src="image/top.{{index}}.jpg"> </a></li>
+        </ul>
+        <h5><a href="#">More</a></h5>
+    </div>
+    <div class="imfor-3">
+        <h3><a href="#">Hot-top</a></h3>
+        <ul id="imfor-3-ul">
+            <li><a href="#">{{index}}</a></li>
+        </ul>
+        <h5><a href="#">More</a></h5>
+    </div>
+    <div  class="share_1">
+        <h3>Share You Life... </h3>
+        <div class="share_write" id="write1">
+            <textarea id="inp1" placeholder="share you life...."></textarea>
+
+            <button id="send1">Share</button>
+        </div>
+        <div class="share_write-1">
+            <ul class="leftul">
+                <li><a href="#">Face</a></li>
+                <li><a href="#">Image</a></li>
+                <li><a href="#">Video</a></li>
+                <li><a href="#">Topic</a></li>
+                <li><a href="#">Top-Art</a></li>
+            </ul>
+            <ul class="rightul" style="height: 22px">
+                <li><a href="#">Globe</a></li>
+                <li><a href="#">Face</a></li>
+                <li><a href="#">Face</a></li>
+                <li><a href="#">Face</a></li>
+            </ul>
+            <button style="background: url(image/icon3.png) no-repeat center;"></button>
+        </div>
+
+    </div>
+    <div class="share_2">
+        <div class="share_2-1">
+            <ul>
+                <li><a href="#">All</a></li>
+                <li><a href="#">Original</a></li>
+                <li><a href="#">Image</a></li>
+                <li><a href="#">Video</a></li>
+                <li><a href="#">Music</a></li>
+                <li><a href="#">Essay</a></li>
+            </ul>
+            <input type="text" placeholder="Shear Your Focus">
+            <button></button>
+        </div>
+    </div>
+    <div class="share_show" id="show1">
+        <ul id="ul1">
+
+
+        </ul>
+    </div>
+
+</div>
+
+
+
+</body>
+</html>

@@ -1,0 +1,447 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background: url("image/10.jpg") no-repeat 0 0;
+    background-size:cover;
+    min-height:1000px;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    color: red;
+    transition: all 0.5s;
+}
+
+button{
+    border: none;
+}
+button:hover{
+    cursor: pointer;
+}
+li{
+    list-style: none;
+}
+li:hover{
+    background: rgba(16, 8, 8, 0.14);
+}
+
+
+
+
+.banner{
+    background-size:cover;
+}
+#div1{
+
+    width: 50px;
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 10px;
+    z-index: 9;
+
+}
+.nav1{
+
+    display: none;
+
+}
+.nav1 ul{
+    display: block;
+}
+.nav1 ul li{
+     list-style: none;
+    margin-left: -20px;
+ }
+.nav1 ul li a{
+    text-decoration: none;
+    font-size: large;
+}
+.nav1 ul li a:hover{
+    background-color: red;
+}
+#btn1{
+    margin-top: 10px;
+    position: fixed;
+
+}
+
+#login{
+    position:fixed ;
+    left: 50%;
+    margin-left: -250px;
+    margin-top: 10%;
+    width: 500px;
+    height: 300px;
+    background-color: rgba(108, 152, 255, 0.78);
+    display: none;
+    z-index: 99;
+}
+#login h1{
+    text-align: center;
+    padding: 50px 0 0 0;
+}
+#login .login-close{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    background: url("image/close.gif") no-repeat center;
+}
+.login-1{
+    position: absolute;
+    top:40%;
+    width: 500px;
+}
+#login input{
+    text-align:center;
+    background-color: rgba(255, 255, 255, 0.5);
+    border: 0px;
+    width: 400px;
+    height: 30px;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+#login .login-submit{
+    position: absolute;
+    top: 230px;
+    left: 50%;
+    margin-left: -100px;
+    width: 200px;
+    height: 30px;
+    background: rgba(74, 255, 248, 0.5);
+    border: none;
+}
+header{
+    width: auto;
+    height: 60px;
+    background-color: rgba(10, 10, 13, 0.24);
+}
+.header-1{
+    position: absolute;
+    right: 250px;
+    margin: 20px 0 0 0;
+}
+.header-1 li {
+    display: inline;
+}
+.header-1 li a{
+    padding: 0 20px 0 0;
+}
+.uesr{
+    float: right;
+    margin: 20px 20px 0 0;
+}
+.uesr a{
+    padding: 0.5em;
+}
+
+
+.totop{
+    border: none;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+}
+.totop:hover{
+    cursor: pointer;
+}
+
+
+
+.main{
+    top: 80px;
+    left: 50%;
+    margin-left: -600px;
+    width: 1200px;
+    position: absolute;
+    height: auto;
+}
+.main_nav{
+    position: relative;
+    top: 1em;
+    width: 100px;
+    left: 75px;
+    border-bottom: 1px solid;
+}
+.main_nav ul li{
+    padding: 0 0 1em 0;
+    text-align: center;
+}
+
+.main_nav-2 {
+    top: 3em;
+    position: relative;
+    width: 100px;
+    left: 75px;
+}
+.main_nav-2 ul{
+    height: 190px;
+    width: 100px;
+    overflow: hidden;
+}
+.main_nav-2 ul li{
+    padding: 0 0 1em 0;
+    text-align: center;
+}
+.main_nav-2 #main_nav-2-show{
+    background-color: rgba(255, 20, 126, 0.24);
+    border: none;
+    width: 80px;
+}
+.main_nav-2 #main_nav-2-show:hover{
+    background-color: rgba(255, 20, 126, 0.74);
+    cursor: pointer;
+}
+.imfor{
+    width: 200px;
+    position: absolute;
+    right: 25px;
+    height: 200px;
+    background-color: rgba(255, 20, 126, 0.24);
+    top: 1em;
+}
+.imfor h3{
+    text-align: center;
+    position: relative;
+    top: 10px;
+}
+.imfor img{
+    top: 20px;
+    position: relative;
+    width: 150px;
+    height: 100px;
+    left: 25px;
+}
+.imfor .imfor-1-1{
+    width: 180px;
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+}
+.imfor .imfor-1-1 a{
+    border-right:1px solid ;
+    padding: 0 5px 0 5px;
+}
+.imfor-2{
+    width: 200px;
+    position: absolute;
+    right: 25px;
+    height: 350px;
+    background-color: rgba(255, 20, 126, 0.24);
+    top: 225px;
+}
+.imfor-2 h3{
+    text-align: center;
+padding: 1em 0 0 0;
+}
+.imfor-2 ul{
+    position: relative;
+    padding: 5px;
+}
+.imfor-2 ul li{
+    padding: 5px;
+}
+#imfor-2-ul li img{
+    width: 150px;
+    height: 50px;
+}
+.imfor-2 h5 {
+    text-align: center;
+}
+.imfor-2 h5 a {
+    color: black;
+}
+.imfor-2 h5 a:hover{
+    color: red;
+    transition: all 1s;
+}
+
+
+
+.imfor-3{
+    width: 200px;
+    position: absolute;
+    right: 25px;
+    height: 300px;
+    top:585px;
+    background-color: rgba(255, 20, 126, 0.24);
+}
+.imfor-3 h3{
+    text-align: center;
+    padding: 1em 0 0 0;
+}
+.imfor-3 ul{
+    padding: 5px;
+
+}
+.imfor-3 h5{
+    text-align: center;
+}
+.imfor-3 h5 a {
+    color: black;
+}
+.imfor-3 h5 a:hover{
+    color: red;
+    transition: all 1s;
+}
+
+
+
+
+
+
+
+.share_1{
+    width: 700px;
+    height: 200px;
+    background: rgba(255, 20, 126, 0.24);
+    position: absolute;
+    left: 50%;
+    margin-left: -350px;
+    top:1em;
+}
+.share_1 h3{
+    position: relative;
+    margin: 10px 0 0 30px;
+}
+.share_write{
+    width: 641px;
+    left: 30px;
+    height: 80px;
+    position: relative;
+    top: 1.5em;
+}
+.share_write textarea{
+    width: 550px;
+    height: 80px;
+}
+.share_write button{
+    position: absolute;
+    margin: 0 0 0 5px;
+    width: 85px;
+    height: 80px;
+    border: none;
+    background-color: rgba(255, 53, 197, 0.44);
+}
+.share_write button:hover{
+    background-color: rgba(255, 53, 197, 0.84);
+    transition: all 1s;
+    cursor: pointer;
+}
+.share_write-1{
+    position: relative;
+    top: 2.5em;
+    left: 30px;
+    width: 641px;
+    height: 22px;
+}
+.share_write-1 .leftul{
+    position: absolute;
+}
+.share_write-1 .leftul li{
+    display: inline;
+    padding: 0 1em 0 0;
+}
+.rightul{
+    right:40px;
+    position: absolute;
+    z-index: 99;
+    height: 22px;
+    overflow: hidden;
+}
+.rightul li{
+
+}
+.share_write-1 button{
+    right: 0;
+    height: 22px;
+    width: 32px;
+    position: absolute;
+    background: url("image/icon3.png") no-repeat center;
+}
+
+
+
+
+
+.share_2{
+    height: 50px;
+    width: 700px;
+    position: absolute;
+    top: 220px;
+    left: 50%;
+    margin-left: -350px;
+    background-color: rgba(255, 20, 126, 0.24);
+}
+.share_2-1 {
+    position: relative;
+    top: 5px;
+    left: 30px;
+    width: 670px;
+}
+.share_2-1 ul{
+    width: 400px;
+    position: absolute;
+}
+.share_2-1 ul li{
+    display: inline;
+    padding: 0 1em 0 0;
+
+}
+.share_2-1 input{
+    position: absolute;
+    width: 200px;
+    right: 1em;
+    height: 2em;
+    border: none;
+    background-color: rgba(255, 88, 179, 0.24);
+}
+.share_2-1 button{
+    position: absolute;
+    right: 1em;
+    width: 3em;
+    height: 2em;
+    background: url("image/search1.png") no-repeat center;
+    border: none;
+}
+
+
+
+
+.share_show{
+    width: 700px;
+    top: 260px;
+    left: 50%;
+    margin-left: -350px;
+    height: auto;
+    position: absolute;
+    background-color: aqua;
+}
+.share_show ul{
+    position: absolute;
+    width: 700px;
+    margin-top: 20px;
+}
+.share_show ul li{
+    width: 700px;
+    list-style: none;
+    position: relative;
+    margin: 0 0 10px 0;
+    background-color: rgba(255, 20, 126, 0.24);
+
+}
+.share_show ul li button{
+    height: 22px;
+    background: url("image/close.gif") no-repeat center center;
+    width: 50px;
+    right: 0;
+    position: absolute;
+}
+
+
+
