@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>WeChat</title>
+    <script src="jquery-1.8.3.min.js"></script>
+    <link href="WeChat.css" rel="stylesheet" type="text/css">
+    <script src="WeChat.js"></script>
+</head>
+<body>
+<div class="all">
+    <div class="wechat">
+        <input type="button">
+        <span>WeChat</span>
+
+    </div>
+    <div class="setting">
+        <div class="set-head">
+            <h6>Setting</h6>
+            <button></button>
+        </div>
+        <div class="set-left">
+            <ul>
+                <li>PassSet</li>
+                <li>AboutWC</li>
+            </ul>
+        </div>
+        <div class="set-right">
+        </div>
+    </div>
+    <div class="login">
+        <div class="login-header">
+            <h5>WeChat</h5>
+            <a class="login-close"></a>
+        </div>
+        <div class="user">
+            <a href="#"><img src="image/user.jpg"></a>
+            <span>Name</span>
+        </div>
+        <div class="login-in">
+            <input class="login-in-a" type="submit" value="login">
+            <a href="#">Chang User</a>
+        </div>
+    </div>
+    <div class="message">
+        <div class="message-nav">
+            <div class="message-nav-user">
+                <a href="#"><img src="image/user.jpg"></a>
+            </div>
+
+            <div class="message-nav-inform">
+
+                <ul>
+                    <li><a href="#"><img src="image/setting.png"></a></li>
+                    <li><a href="#"><img src="image/setting.png"></a></li>
+                </ul>
+            </div>
+            <div class="message-nav-setting">
+                <a href="#"></a>
+            </div>
+
+
+
+        </div>
+        <div class="friend-list">
+            <div class="friend-list-search">
+                <input type="text">
+                <a href="#"></a>
+            </div>
+            <div class="friend-list-number">
+                <ul class="friend-list-ul">
+                    <li><img src="image/{{index}}.jpg"><span>{{name}}</span></li>
+                </ul>
+            </div>
+
+        </div>
+        <div class="message-chat">
+            <div class="message-chat-head">
+                <div class="message-chat-c">
+                    <button></button>
+                </div>
+            </div>
+            <div class="message-chat-friend">
+
+                <div class="message-chat-y">
+                    <ul>
+                    </ul>
+                </div>
+
+            </div>
+            <div class="message-chat-user">
+                <textarea id="message-chat-you" ></textarea>
+                <input id="send" type="button" value="send">
+            </div>
+        </div>
+    </div>
+</div>
+
+
+</body>
+</html>

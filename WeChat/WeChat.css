@@ -1,0 +1,514 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body {
+
+}
+
+
+
+
+
+a{
+    text-decoration: none;
+}
+li{
+list-style: none;
+}
+
+
+
+
+.wechat{
+    position: absolute;
+    width: 100px;
+    height: 120px;
+    left: 100px;
+    top: 100px;
+    text-align: center;
+}
+.wechat input{
+    width: 100px;
+    height: 100px;
+    background: url("image/wechat.png") no-repeat center center;
+    border: none;
+}
+.wechat input:hover{
+    cursor: pointer;
+}
+
+.changlogin{
+    width: 300px;
+    height: 500px;
+    position: absolute;
+    left: 300px;
+    top: 50px;
+    background-color: rgb(250,250,250);
+    box-shadow: 1px 1px 3px  2px #cccccc;
+    z-index: 99;
+}
+.changlogin .oinput{
+    width: 300px;
+    height: 100px;
+    position: absolute;
+    top: 200px;
+    text-align: center;
+}
+.changlogin .oinput .ainput{
+    width: 200px;
+    height: 30px;
+    margin: 10px 0 10px 0;
+    border-radius: 1px;
+    border: none;
+}
+.obtn{
+    width: 240px;
+    height: 30px;
+    position: absolute;
+    background-color: rgba(82, 244, 13, 0.76);
+    border: none;
+    top: 310px;
+    left: 30px;
+}
+.obtn:hover:hover{
+    background-color: rgba(82, 244, 13, 0.96);
+}
+.oclose{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: 0px;
+    top:0;
+    padding: 10px;
+    border: none;
+    background: url("image/close.gif") no-repeat center;
+}
+.oclose:hover{
+    cursor: pointer;
+    background-color: red;
+}
+
+
+
+.login{
+    position: absolute;
+    width: 300px;
+    height: 500px;
+    left: 300px;
+    top: 50px;
+    background-color: rgb(250,250,250);
+    box-shadow: 1px 1px 3px  2px #cccccc;
+    display: none;
+}
+.login-header{
+    width: 280px;
+    height: 20px;
+    position: relative;
+    top: 20px;
+    margin: 10px;
+}
+
+.login-close{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 0;
+    right: 0;
+    background: url("image/close.gif") no-repeat center;
+}
+
+
+.login .user{
+    position: relative;
+    top: 50px;
+    width: 150px;
+    height: 180px;
+    left: 75px;
+    text-align: center;
+
+}
+.user a{
+    width: 150px;
+    height: 150px;
+}
+.user a div{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: -100px;
+    background: url("image/user.jpg") no-repeat center;
+    border: 100px solid rgba(10,10,10,0.5);
+    display: none;
+    z-index: 99;
+}
+.user a div button{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background: url("image/close.gif") no-repeat center;
+    border: none;
+    top:-80px;
+    right: -80px;
+}
+.user a div button:hover{
+    cursor: pointer;
+    background-color: #cccccc;
+}
+.user img{
+     width: 150px;
+     height: 150px;
+ }
+.user span{
+    top: 1em;
+    position: relative;
+    margin: 1em 0 1em 0;
+
+}
+.login .login-in{
+    position: relative;
+    top: 100px;
+    height: 100px;
+    width: 200px;
+    left: 50px;
+    text-align: center;
+}
+.login .login-in .login-in-a{
+    position: relative;
+    width: 200px;
+    height: 50px;
+    background: rgba(65, 244, 12, 0.56);
+    border: none;
+}
+.login .login-in .login-in-a:hover{
+    cursor: pointer;
+    background-color: rgba(65, 244, 12, 0.86);
+    transition: all 1s;
+}
+.login-in a{
+    top: 2em;
+    position: relative;
+    padding: 1em 0 1em 0;
+
+}
+
+
+.setting{
+    position: absolute;
+    width: 650px;
+    height: 400px;
+    left: 400px;
+    top: 100px;
+    z-index: 99;
+    background-color: RGB(248,248,248);
+    display: none;
+}
+.set-head{
+    width: 650px;
+    height: 49px;
+    border-bottom: 1px solid #cccccc;
+}
+.set-head button{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 30px;
+    height: 30px;
+    background: url("image/close.gif")no-repeat center;
+    border: none;
+}
+.set-head h6{
+    position: absolute;
+    padding: 1em ;
+}
+.set-head button:hover{
+    background-color: red;
+    transition: all 1s;
+}
+.set-left{
+    width: 100px;
+    height: 350px;
+}
+.set-left ul {
+    text-align: center;
+    position: relative;
+    width: 80px;
+    top:50px;
+    height: 200px;
+    margin: 10px;
+
+}
+.set-left ul li{
+    font-size: 10px;
+    padding: 10px 0 10px 0;
+    border-right: 1px solid #cccccc;
+}
+.set-left ul li:hover{
+    border-right: 2px solid #41f40c;
+    color: #41f40c;
+}
+.set-right{
+    width: 550px;
+    height: 350px;
+    position: absolute;
+    top: 50px;
+    right: 0;
+}
+
+
+
+.message{
+    top:50px;
+    left: 300px;
+    height: 500px;
+    width: 850px;
+    position: absolute;
+    box-shadow: 1px 1px 2px 2px #cccccc;
+    display:none;
+}
+.message .message-nav{
+    position: relative;
+    width: 50px;
+    height: 500px;
+    background-color: rgba(50, 50, 50, 1);
+}
+.message-nav-user{
+    position: absolute;
+    left: 10px;
+    top:1em;
+    width: 30px;
+    height: 30px;
+}
+.message-nav-user a img{
+    width: 30px;
+    height: 30px;
+}
+.message-nav-user a div{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background: url("image/user.jpg")no-repeat center center;
+    border: 10px solid rgba(10,10,10,0.5);
+    z-index: 99;
+    display: none;
+}
+.message-nav-user a div button{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background: url("image/close.gif") no-repeat center;
+    border: none;
+
+}
+.message .message-nav .message-nav-inform{
+
+}
+.message .message-nav .message-nav-inform ul{
+    position: absolute;
+    left: 10px;
+    top:4em;
+    height: 60px;
+    width: 30px;
+
+
+}
+.message .message-nav .message-nav-inform ul li{
+    position: relative;
+    width: 30px;
+    height: 30px;
+}
+.message .message-nav .message-nav-inform ul li a{
+    width: 30px;
+    height: 30px;
+}
+
+.message .message-nav .message-nav-setting a{
+    position: absolute;
+    left: 10px;
+    bottom: 1em;
+    width: 30px;
+    height: 30px;
+    background: url("image/setting.png") no-repeat center center;
+}
+.message .message-nav .message-nav-inform a img{
+    width: 30px;
+    height: 30px;
+}
+.friend-list{
+    width: 250px;
+    height: 500px;
+    position: absolute;
+    top: 0;
+    left: 50px;
+    background-color:RGB(222, 222, 222);
+}
+.friend-list-search{
+    width: 250px;
+    position: relative;
+    height: 50px;
+
+}
+.friend-list-search  input{
+    position: relative;
+    height: 23px;
+    width: 178px;
+    left: 1em;
+    margin: 12.5px 0 12.5px 0;
+}
+.friend-list-search a{
+    position: absolute;
+    right: 0;
+    width: 23px;
+    height: 23px;
+    background: url("image/plusc.png") no-repeat center;
+    margin: 12.5px  12.5px 0 0;
+}
+.friend-list-search a:hover{
+    background-color: #cccccc;
+}
+.friend-list-number{
+    width: 250px;
+    height: 450px;
+    position: relative;
+    overflow: auto;
+    scrollbar-face-color: rgb(248, 248, 248);
+    scrollbar-track-color: RGB(222, 222, 222);
+    scrollbar-arrow-color: rgba(0, 0, 0,0);
+    scrollbar-shadow-color: RGB(232, 232, 232);
+
+}
+.friend-list-number::-webkit-scrollbar{
+    width: 12px;
+    height: 10px;
+}
+.friend-list-number::-webkit-scrollbar-button{
+   display: none;
+}
+.friend-list-number::-webkit-scrollbar-track{
+    background:rgb(222,222,222);
+}
+.friend-list-number::-webkit-scrollbar-thumb{
+    border-radius: 15px;
+    background: RGB(152, 152, 152);
+}
+.friend-list-number::-webkit-scrollbar-track-piece{
+}
+
+
+
+
+
+.friend-list-number ul li{
+    padding: 5px 15px 5px 15px;
+    position: relative;
+}
+.friend-list-number ul li:hover{
+    background-color:RGB(188, 188, 188) ;
+}
+
+.friend-list-number ul li img{
+    width: 40px;
+    height: 40px;
+}
+.friend-list-number ul li span{
+    position: absolute;
+    top: 5px;
+    padding: 5px;
+}
+
+.message-chat{
+    width: 550px;
+    height: 500px;
+    position: absolute;
+    top:0;
+    left: 300px;
+    background-color: RGB(242, 242, 242);
+}
+.message-chat-head{
+    position: relative;
+    width: 550px;
+    height: 50px;
+}
+.message-chat-head .message-chat-c{
+    width: 90px;
+    height: 50px;
+    position: absolute;
+    right: 0;
+
+}
+.message-chat-head .message-chat-c button{
+    height: 50px;
+    width: 30px;
+    background: url("image/close.gif") no-repeat center;
+    border:none;
+    position: absolute;
+    padding: 10px 10px 10px 0;
+    right: 0;
+
+}
+.message-chat-head .message-chat-c button:hover{
+    background-color: red;
+    cursor: pointer;
+}
+.message-chat-friend{
+    position: relative;
+    width: 550px;
+    height: 250px;
+    overflow: hidden;
+}
+.message-chat-f{
+    position: relative;
+    width: 275px;
+    height: 250px;
+}
+
+.message-chat-y{
+    position: absolute;
+    top: 0px;
+    left: 275px;
+    width: 275px;
+    height: 250px;
+}
+.message-chat-y ul{
+    width: 275px;
+    height: 250px;
+    overflow: auto;
+}
+.message-chat-y ul li{
+    text-align: right;
+    background-color: aqua;
+    margin: 1em;
+    border-radius: 20px;
+}
+.message-chat-user{
+    position: relative;
+    background-color:RGB(248, 248, 248);
+    width: 550px;
+    height: 200px;
+    border-top: 1px solid #cccccc;
+}
+.message-chat-user textarea{
+    width: 500px;
+    height: 120px;
+    position: absolute;
+    left: 25px;
+    top:40px;
+    resize: none;
+
+    border: none;
+}
+.message-chat-user input{
+    position: absolute;
+    top:170px;
+    right: 25px;
+    border: 1px solid #cccccc;
+    width: 60px;
+}
+.message-chat-user input:hover{
+    cursor: pointer;
+    background-color: #41f40c;
+    transition: all 1s;
+}
+
+
+
