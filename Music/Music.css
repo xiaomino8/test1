@@ -1,0 +1,591 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+
+}
+li{
+    list-style: none;
+}
+header{
+    width: 100%;
+    height: 2em;
+    background: #080808;
+    position: relative;
+}
+.navlist{
+    float: right;
+    height: 2em;
+}
+.navlist ul{
+    font-size: small;
+    position: relative;
+    top:5px;
+}
+.navlist ul li{
+    display: inline;
+    padding: 0 5px;
+}
+.navlist ul li span{
+    color: rgb(160,160,160);
+
+}
+.navlist ul li a{
+    color: rgb(180,180,180);
+}
+.navlist ul li a:hover{
+    color: rgba(65, 244, 12, 1);
+    text-decoration: none;
+}
+
+.navlist button{
+    display: none;
+}
+
+
+
+
+
+.navmenu{
+    width: 100%;
+    height: 100px;
+    border-bottom: 1px solid #cccccc;
+    position: relative;
+}
+.logo img{
+   float: left;
+    width: 100px;
+    height: 100px;
+}
+.logo h1{
+    float: left;
+}
+
+
+.msearh{
+    width: 500px;
+    height: 100px;
+    float: right;
+    position: relative;
+}
+.msearh input{
+    position: absolute;
+    top: 30px;
+    height: 30px;
+}
+.msearh button{
+    position: relative;
+    top: 30px;
+    width: 50px;
+    height: 30px;
+    z-index: 9;
+    float: right;
+
+}
+.slide{
+    position: relative;
+    top: 2em;
+}
+.main{
+    width: 720px;
+    height: 288px;
+    position: relative;
+    overflow: hidden;
+
+}
+.main ul li{
+    float: left;
+}
+.main ul{
+    position: absolute;
+}
+.main #btnp{
+    width: 20%;
+    height: 100%;
+    background: url("image/prev.png")no-repeat center;
+    position: absolute;
+    left: 0;
+    border: none;
+    z-index: 99;
+}
+.main #btnn{
+    width: 20%;
+    height: 100%;
+    background: url("image/next.png")no-repeat center;
+    position: absolute;
+    right: 0;
+    border: 0;
+    z-index: 99;
+}
+.side-right{
+     position: relative;
+     float: right;
+
+     width: 400px;
+
+ }
+.login{
+    height: 288px;
+}
+.login-h{
+    text-align: center;
+    padding-bottom: 2em;
+    border-bottom: 1px solid #cccccc;
+}
+.login-h h3{
+    color: #cccccc;
+}
+.login-h button{
+    width: 200px;
+    height: 50px;
+    background: rgba(255, 23, 28, 0.45);
+}
+
+
+.slide-small{
+    position: relative;
+    width: 400px;
+    height: 150px;
+    overflow: hidden;
+}
+.slide-small #slide-small-i{
+    position: absolute;
+    width: 2000px;
+
+}
+.slide-small #slide-small-i li{
+    float: left;
+}
+.slide-small #slide-small-i li a img{
+    width: 400px;
+    height: 150px;
+}
+.slide-small .contro{
+    position: absolute;
+    left: 120px;
+    height: 15px;
+    bottom: 1em;
+
+}
+.slide-small .contro li{
+
+
+    float: left;
+    background: rgba(7, 7, 7, 0.45);
+    display: block;
+    width: 15px;
+    border-radius: 15px;
+    height: 15px;
+    margin: 0 0.5em;
+    cursor: pointer;
+}
+
+
+
+
+
+
+.topsong{
+    height: 350px;
+    font-family: свт╡;
+    color: rgb(150,150,150);
+    overflow: hidden;
+}
+.tosong-h{
+    width: 400px;
+    height: 50px;
+}
+.topsong .tosong-h h4{
+    float: left;
+}
+.topsong .tosong-h button{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: none;
+    float: left;
+  width: 30px;
+    background:rgba(7, 7, 7, 0);
+}
+.tosong-b{
+    width: 400px;
+    height: 300px;
+}
+.topsong-b-menu{
+    width: 400px;
+    height: 50px;
+}
+.topsong-b-menu ul li{
+    display: inline;
+    border-right: 1px solid #ccc;
+    padding-right: 10px;
+    margin-right:10px;
+}
+.topsong-b-menu ul li a:hover{
+    cursor: pointer;
+}
+.active-menu{
+     font-size: large;
+     color:rgba(65, 244, 12, 0.45);
+ }
+
+.topsong-b-list{
+    width: 400px;
+    height: 250px;
+}
+.topsong-b-list ol li span{
+    padding: 0 15px;
+    font-size: larger;
+}
+.top-one{
+    color: #ff4114;
+
+}
+.top-one img{
+    width: 50px;
+    height: 50px;
+}
+
+.hottop{
+    height: 350px;
+}
+.hottop .top-area{
+    margin: 1.5em 0.5em;
+    border-bottom: 1px dotted;
+    border-top: 1px dotted;
+}
+.hottop .top-area ul{
+    margin: 0.5em 0;
+}
+.hottop .top-area ul li{
+    display: inline;
+    margin: 0em 3em;
+}
+.top-singer-h{
+    position: relative;
+}
+.top-singer-h h4{
+    color: rgb(100,100,100);
+    float: left;
+    margin: 0 1em 0 0;
+
+}
+.top-singer-h span{
+    bottom: 0;
+    padding: 0 1em;
+    position: relative;
+    border-left:1px solid green ;
+}
+.top-singer-b{
+    margin: 1em 0;
+}
+.top-singer-b ul li{
+    float: left;
+    margin:0 2.1em 1em 0;
+}
+.top-singer-b ul li img{
+    width: 100px;
+    height: 82px;
+}
+
+
+
+
+
+.msong{
+    position: relative;
+    top: 2em;
+}
+.mmv{
+    position: relative;
+    top: 1em;
+}
+.mlist_head{
+    position: relative;
+
+    width: 720px;
+}
+.mlist_head h1{
+    float: left;
+    display: block;
+    border-left: 3px solid red;
+    padding-left: 0.5em;
+    width:5em;
+}
+.mlist_head .more{
+    position: absolute;
+    left: 180px;
+    top: 20px;
+
+}
+.mlist_head button{
+    float: right;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: none;
+    background: rgba(7, 7, 7, 0);
+    width: 30px;
+}
+
+
+.mlist-list{
+    width: 720px;
+    position: relative;
+    top: 2em;
+    overflow: hidden;
+}
+.mlist-list ul{
+    width:1200px;
+    height:250px;
+
+}
+.mlist-list ul li{
+    float: left;
+    margin: 0 2em 1em 0;
+
+}
+.mlist-list ul li a img{
+    width: 120px;
+    height: 110px;
+}
+footer{
+    margin: 3em 0;
+    height: 250px;
+    position: relative;
+    width: 100%;
+    background: rgb(230,230,230);
+}
+footer .container ul{
+    margin:3em 0em;
+}
+footer .container ul li{
+    margin: 1em 0;
+}
+
+
+#load{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url("image/spinner.gif") no-repeat center;
+    z-index: 999;
+    display: none;
+}
+
+
+
+
+
+
+.play{
+    width: 300px;
+    height: 100px;
+    position: fixed;
+    bottom: 2em;
+    left: 0px;
+    background: rgba(10, 10, 13, 0.45);
+    text-align: center;
+    z-index: 99;
+}
+.play .music-play{
+    text-align: center;
+    height: 28px;
+    width: 300px;
+    position: relative;
+}
+.play .music-play button{
+    background: rgba(65, 244, 12, 0);
+    border: none;
+    position: relative;
+    top: 20px;
+}
+.play .music-play .music-play-left{
+    left: 0;
+}
+.play .music-play .music-play-right{
+    right: 0;
+}
+.play audio{
+    top:30px;
+    position: relative;
+    border: none;
+    border-radius: 10px;
+    width: 250px;
+}
+.play #palybars{
+    width: 50px;
+    height: 100px;
+    position: absolute;
+    top: 0;
+    right: -50px;
+    border: none;
+    background: rgba(255, 15, 85, 0.45);
+}
+.play button span{
+
+}
+
+@media  (max-width: 435px){
+
+    .navlist button{
+        border: none;
+        width: 2em;
+        height:2em;
+        background: url("image/nav-icon.png")no-repeat center;
+        position: absolute;
+        display: block;
+        top: 0;
+    }
+
+
+    .navlist ul{
+        font-size: small;
+        position: relative;
+        top:5px;
+        width: 100%;
+        height: 15px;
+        z-index: 99;
+        overflow: hidden;
+
+    }
+    .navlist ul li{
+        display: inherit;
+        padding: 0 5px;
+        background: rgba(10, 10, 13, 0.45);
+
+    }
+    .navlist ul li a{
+        color: rgb(00,180,180);
+    }
+
+    .msearh{
+        width: 200px;
+        height: 50px;
+        float: right;
+        position: relative;
+    }
+    .msearh input{
+        position: absolute;
+        top: 10px;
+        height: 30px;
+    }
+    .msearh button{
+        position: absolute;
+        top: 10px;
+        width: 50px;
+        height: 30px;
+        right: 0px;
+        z-index: 9;
+        float: right;
+    }
+
+    .navmenu{
+        width: 100%;
+        height: 50px;
+        border-bottom: 1px solid #cccccc;
+        position: relative;
+    }
+    .logo img{
+        float: left;
+        width: 50px;
+        height: 50px;
+    }
+    .logo h1{
+        font-size: 20px;
+        float: left;
+    }
+
+    .main{
+        width: 300px;
+        height: 200px;
+        position: relative;
+        top: 1em;
+        left: 50%;
+        margin-left: -150px;
+        background: rgba(255, 23, 28, 0.45);
+        display: none;
+    }
+    .login{
+        position: relative;
+        width: 350px;
+        height: 100px;
+        float: right;
+        text-align: center;
+        background: rgba(255, 53, 197, 0.15);
+    }
+    .login h2{
+        display: none;
+    }
+    .login button{
+        width: 250px;
+        height: 50px;
+        background: rgba(16, 63, 235, 0.45);
+        border: none;
+        position: relative;
+        top: 30px;
+    }
+    .mlist_head{
+        position: relative;
+        top: 1em;
+        width: 350px;
+    }
+    .mlist_head h1{
+        font-size: 100%;
+        display: block;
+        border-left: 3px solid red;
+        padding-left: 0.5em;
+        width:5em;
+    }
+    .mlist_head span{
+        position: absolute;
+        left: 90px;
+        top: 0px;
+    }
+    .mlist_head button{
+        display: none;
+    }
+    .mlist-list{
+        width: 360px;
+        position: relative;
+        top: 1em;
+        overflow: hidden;
+
+    }
+    .mlist-list ul{
+        width: 400px;
+        height:250px;
+    }
+    .mlist-list ul li{
+        float: left;
+        margin: 0 0.5em 0.5em 0;
+
+    }
+    .mlist-list ul li a img{
+        width: 50px;
+        height: 55px;
+    }
+    .login-h{
+        display: none;
+    }
+    .slide-small{
+        position: relative;
+        left: -50px;
+    }
+    .side-right{
+        position: relative;
+    }
+    .topsong{
+        position: relative;
+        top: 50px;
+    }
+   .tosong-h{
+       position: relative;
+
+   }
+
+
+}
+
